@@ -1341,12 +1341,13 @@ nav.scrolled {
   .hero-photo-placeholder {
     width: 200px;
     height: 200px;
+    background: #c8cdd2;
   }
 
   .hero-photo-placeholder img {
-    object-fit: cover;
-    object-position: center top;
-    transform: scale(0.9);
+    object-fit: contain;
+    object-position: center;
+    transform: none;
   }
 
   .initials {
